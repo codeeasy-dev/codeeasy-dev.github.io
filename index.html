@@ -1,121 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Easy - Aprenda de Forma Simples e Prática</title>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <title>Code Easy - Aprenda de Forma Simples e Prática</title>
-  <!-- Favicon-->
-  <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
-  <!-- Bootstrap icons-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-  <!-- My custom fonts -->
-  <link href="css/fonts.css" rel="stylesheet">
-  <!-- Core theme CSS (includes Bootstrap)-->
-  <link href="css/styles.css" rel="stylesheet" />
-  <link href="css/custom-style.css" rel="stylesheet" />
-</head>
+    <!-- STYLESHEET -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+<!--
+TODO:
+- Bootstrap;
+- Google Analytics;
+- SEO Meta Tags;
+- OG tags;
+- Navbar (Título --- Links {Blog, YouTube, Instagram});
+- Header (Slogan, Sobre);
+- Footer (Copyright).
+-->
 
-<body class="d-flex flex-column h-100">
-  <main class="flex-shrink-0">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-purple">
-      <div class="container px-5">
-        <a class="navbar-brand main-font" href="index.html">Code Easy</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <h1 id="ce-brand">
+          <a class="navbar-brand" href="#">Code Easy</a>
+        </h1>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ce-navbar-collapse" aria-controls="ce-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <div class="collapse navbar-collapse" id="ce-navbar-collapse">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="https://codeeasy.com.br">Início</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="index.html">Cursos</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link" href="https://blog.codeeasy.com.br" target="_blank">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://youtube.com/CodeEasy" target="_blank">YouTube</a>
-            </li>
+            <li class="nav-item"><a href="https://blog.codeeasy.com.br" target="_blank" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="https://instagram.com/codeeasy.dev" target="_blank" class="nav-link">Instagram</a></li>
+            <li class="nav-item"><a href="https://youtube.com/CodeEasy" target="_blank" class="nav-link">YouTube</a></li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- Header-->
-    <header class="bg-purple py-5">
+
+    <!-- HEADER -->
+    <header class="bg-dark py-5">
       <div class="container px-5">
         <div class="row gx-5 align-items-center justify-content-center">
           <div class="col-lg-8 col-xl-7 col-xxl-6">
             <div class="my-5 text-center text-xl-start">
-              <h1 class="display-5 fw-bolder text-white mb-2">
-                Aprenda de forma simples e prática!
-              </h1>
-              <p class="lead fw-normal text-white-50 mb-4">
-                Temos o objetivo de te ajudar a se tornar um desenvolvedor web de forma simples e pŕatica.
-              </p>
+              <h2 class="display-6 fw-bolder text-white mb-3">Aprenda de forma simples e prática!</h2>
+              <p class="lead dw-normal text-white-50 mb-4">Acesse o nosso blog e as nossas redes sociais e comece a aprender sobre o mundo da proramação e dos computadores!</p>
               <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                <a class="btn btn-danger btn-lg px-4 me-sm-3" href="https://youtube.com/CodeEasy" target="_blank">YouTube</a>
-                <a class="btn btn-outline-light btn-lg px-4" href="https://blog.codeeasy.com.br" target="_blank">Blog</a>
+                <a class="btn btn-light btn-lg px-4" href="https://blog.codeeasy.com.br" target="_blank">Blog</a>
+                <a class="btn btn-primary btn-lg px-4" href="https://instagram.com/codeeasy.dev" target="_blank">Instagram</a>
+                <a class="btn btn-danger btn-lg px-4" href="https://youtube.com/CodeEasy" target="_blank">YouTube</a>
               </div>
             </div>
           </div>
-          <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
-            <img class="img-fluid rounded-3 my-5" src="./assets/programming.svg" alt="..." />
-          </div>
+          <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="./assets/images/programming.svg" alt="Programming" /></div>
         </div>
       </div>
     </header>
-    <!-- About us section -->
-    <section>
-      <div class="container px-5">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-xxl-6">
-                <div class="text-center my-5">
-                    <h1 class="fw-bolder mb-3">Sobre a Code Easy</h1>
-                    <p class="lead fw-normal text-muted mb-4">
-                      A Code Easy é um projeto que tem como objetivo disseminar o conhecimento que eu (Felipe Renan Vieira) adquiri com o tempo a fim de fazer com que outras pessoas que desejam se tornar programadoras possam aprender mais sobre o assunto.
-                      <br/>
-                      <br/>
-                      Você pode acessar o nosso canal no <a href="https://youtube.com/codeeasy" target="_blank">YouTube</a>, o nosso <a href="https://code-easy.hashnode.dev/" target="_blank">blog</a> ou os nossos cursos para começar a aprender.
-                      <br/>
-                      <br/>
-                      <strong>ENTÃO SEJA BEM VINDO À CODE EASY!!! 😁✌️</strong>
-                    </p>
-                </div>
+
+    <!-- ABOUT -->
+    <section class="py-3">
+      <div class="container px-5 my-5">
+        <div class="row gx-5 justify-content-center">
+          <div class="col-lg-8 col-xl-6">
+            <div class="text-center">
+              <h2 class="fw-bolder mb-4">Sobre a Code Easy</h2>
+
+              <p class="lead fw-normal text-justify text-muted mb-5">A Code Easy é um projeto pessoal criado por mim (Felipe Renan Vieira) com o objetivo de transmitir o conhecimento que eu vejo adiquirindo com o tempo na área de computação para as pessoas do mundo.<br/><br/>Se você tem interesse em aprender mais sobre a área de programação, tecnologia e desenvolvimento web então <strong class='text-uppercase'>seja bem vindo à Code Easy!</strong></p>
             </div>
-        </div>
-    </div>
-    </section>
-  </main>
-  <!-- Footer-->
-  <footer class="bg-purple py-4 mt-auto">
-    <div class="container px-5">
-      <!-- <div class="row align-items-center justify-content-between flex-column flex-sm-row"> -->
-      <div class="row align-items-center justify-content-between flex-column">
-        <div class="col-auto">
-          <div class="small m-0 text-white">
-            Copyright &copy; Code Easy 2022
           </div>
         </div>
-        <!-- <div class="col-auto">
-          <a class="link-light small" href="#!">Privacy</a>
-          <span class="text-white mx-1">&middot;</span>
-          <a class="link-light small" href="#!">Terms</a>
-          <span class="text-white mx-1">&middot;</span>
-          <a class="link-light small" href="#!">Contact</a>
-        </div> -->
-      </div>
-    </div>
-  </footer>
-  <!-- Bootstrap core JS-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Core theme JS-->
-  <script src="js/scripts.js"></script>
-</body>
 
+        <!-- NEWSLETTER -->
+        <aside class="bg-primary rounded-3 p-4 p-sm-5 mt-5">
+          <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
+            <div class="mb-4 mb-xl-0">
+              <div class="fs-3 fw-bold text-white">Você sempre informado!</div>
+              <div class="text-white">Assine a nossa newsletter para receber novos posts do nosso blog e notícias da Code Easy direto no seu e-mail.</div>
+            </div>
+            <div class="ms-xl-4">
+              <div class="input-group mb-2">
+
+                <data id="mj-w-res-data" data-token="5d06bee0d3a8d0522a5e68d3021ae0b5" class="mj-w-data" data-apikey="6Fuj" data-w-id="OoB" data-lang="pt_PT" data-base="https://app.mailjet.com" data-width="640" data-height="328" data-statics="statics"></data>
+                <button class="btn btn-light mj-w-button mj-w-btn rounded w-100" id="button-newsletter" type="button" data-token="5d06bee0d3a8d0522a5e68d3021ae0b5">Assinar</button>
+                <script type="text/javascript" src="https://app.mailjet.com/statics/js/widget.modal.js"></script>
+              </div>
+              <div class="small text-white-50">Nós nos preocupamos com a sua privacidade e nunca compartilharemos os seus dados.</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark py-4 mt-auto">
+      <div class="container px-5">
+        <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+          <!-- <div class="col-auto"> -->
+            <div class="small m-0 text-white text-center">Copyright &copy; Code Easy 2022</div>
+          <!-- </div> -->
+          <!-- <div class="col-auto"> -->
+          <!--   <a class="link-light small" href="#!">Privacy</a> -->
+          <!--   <span class="text-white mx-1">&middot;</span> -->
+          <!--   <a class="link-light small" href="#!">Terms</a> -->
+          <!--   <span class="text-white mx-1">&middot;</span> -->
+          <!--   <a class="link-light small" href="#!">Contact</a> -->
+          <!-- </div> -->
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 </html>

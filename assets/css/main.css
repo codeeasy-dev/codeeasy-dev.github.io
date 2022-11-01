@@ -1,0 +1,13 @@
+@font-face {
+  font-family: Audiowide;
+  src: url('../../assets/fonts/audiowide-regular.ttf');
+}
+
+#ce-brand {
+  font-family: Audiowide;
+}
+
+#ce-brand > a {
+  font-size: 24px;
+}
+
